@@ -6,7 +6,7 @@ plugins {
 
 group = "io.github.henrymiles3"
 version = "0.0.1-SNAPSHOT"
-description = "NightTickets"
+description = "StocksBot"
 
 java {
     toolchain {
