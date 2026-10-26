@@ -20,10 +20,17 @@ repositories {
 
 dependencies {
     implementation("net.dv8tion:JDA:6.7.0")
+    
 
     implementation("org.springframework.boot:spring-boot-starter-webmvc")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    implementation("org.xerial:sqlite-jdbc:3.45.1.0")
+    implementation("org.hibernate.orm:hibernate-community-dialects")
+
+    implementation("org.knowm.xchart:xchart:3.8.8")
 }
 
 tasks.withType<Test> {
